@@ -58,17 +58,34 @@ the K clusters for the cryptocurrencies’ data.
 ![clustered_df](image/clustered_df.png)
 
 
+### Task 4: Visualizing Cryptocurrencies Results
 
-I started by cleaning up the data to only have cryptocurrencies that are actively trading, have a defined algorithm, and have a complete set of data. This left me with 532 different cryptocurrrencies. From there I created a three dimisional graph to show how the different cryptocurrencies are grouped together. Each point includes its name as well as the algorithm used to create the currency.
+Using the knowledge of creating scatter plots with Plotly Express and
+hvplot, visualize the distinct groups that correspond to the three
+principal components, then create a table with all the currently tradable cryptocurrencies.
 
-![clustered_3d](https://github.com/Wall-E28/cryptocurrencies/blob/main/visualizations/clustered_3d.png)
+* 3D scatter plot using the Plotly Express to plot the three clusters (PCA)
 
-After that, I created a two dimisional graph to show the relationship between total coin supply and total coins mined to show how each currency compares to the rest. Each point includes its currency name.
+![clustered_3d](image/3dscatter.png)
 
-![coins_2d](https://github.com/Wall-E28/cryptocurrencies/blob/main/visualizations/coins_2d.png)
+
+* Table with all the currently tradable cryptocurrencies 
+
+![hvplot](image/hvplot.png)
+
+
+* 2D scatter plot with "TotalCoinsMined" (x-axis) and "TotalCoinSupply" (y-axis) 
+
+![2dscatter](image/2dscatter.png)
+
+
+This 2d scatter plot display the relationship between total coin supply and total coins mined to show how each currency compares to the rest. 
 
 ## Summary
 
-From the three dimisional graph, You can see that there are four different groups. Two groups are clumped very closely together with most currencies falling into one of these two groups. One group has a few different currencies that are farther away from the others and then there is the last group that only have one currency. This shows that there are lot of currencies that perform similarly while there are a few that are outliers. These outliers could be over performers or under performers, but I would need to perform more analysis to figure that out. One thing that I can connect is by looking at the total coin supply vs total coins mined graph. The two main groups have most of there data points scattered between 0% and 40% of the largest currency based on volume. The group with a few currencies are are very close to 0% of the largest currency, while the group with just one currency is at 100% as it is the largest currency.
+Elbow curve, 2D, and 3D scatter plot shows four different groups. Two groups are close horizently with most currencies falling into one of these two groups. the other two groups hav a few different currencies that are farther away from the two group. This scatter plot shows that most of criptocurrrency have similiar trend but a few group have diffferent behaveir similiary to the outliers.
 
-I would want to complete further analysis on these cryptocurrencies by looking at their historical pricing to understand the performance of each of these currencies. This would help investors now how stable or risky their investment would be based on the the different cryptocurrencies they invest in.
+
+## Recommendation
+
+It would be good to see the historical pricing of these cryptocurrencies to understand the performance of each of these currencies. This may help the investors how stable or risky for their cryptocurrencies based on the price changes.
