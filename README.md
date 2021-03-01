@@ -83,7 +83,7 @@ This 2d scatter plot display the relationship between total coin supply and tota
 
 ## Summary
 
-Elbow curve, 2D, and 3D scatter plot shows four different groups. Two groups are close horizently with most currencies falling into one of these two groups. the other two groups hav a few different currencies that are farther away from the two group. This scatter plot shows that most of criptocurrrency have similiar trend but a few group have diffferent behaveir similiary to the outliers.
+Elbow curve, 2D, and 3D scatter plot shows four different groups in the cryptocurrency data. Two groups are close horizently with most currencies falling into one of these two groups. the other two groups hav a few different currencies that are farther away from the two group. This scatter plot shows that most of criptocurrrency have similiar trend but a few group have diffferent behaveir similiary to the outliers.
 
 
 ## Recommendation
