@@ -2,7 +2,7 @@
 Unsupervised Machine Learning in Cryptocurrencies
 
 ## Background
-Accountability Accounting, a prominent investment bank, asked us to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment. The data retrieved from CryptoCompare is not ideal, so it will need to be processed to fit the machine learning models. We will use the clustering algorithm for the cryptocurrencies to share her flndings with the group.
+Accountability Accounting, a prominent investment bank, asked us to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment. The data retrieved from CryptoCompare is not ideal, so it will need to be processed to fit the machine learning models. We will use the clustering algorithm for the cryptocurrencies to share our findings with the group.
 
 
 ## Objects
